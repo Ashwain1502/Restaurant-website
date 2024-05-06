@@ -11,18 +11,19 @@
 /* variables */
 :root{
     --background-color: #CAF0F8;
-    --text-color: #03055e;
+    --text-color: #040303f7;
+    --text-color1: #03055e;
     --heading-color: #90E0EF;
     --extra-colorone: #0077B6;
     --extra-colortwo: #00B4D8;
 }
 
 body{
-    background-color: var(--background-color);
+    background: linear-gradient(90deg, #f4e446, #edd500);
     color: var(--text-color);
 }
 
-/* hero-section */
+/* ----------------------hero-section------------------------ */
 
 .container{
     height: 100vh;
@@ -32,6 +33,7 @@ body{
     display: flex;
     height: 15vh;
     width: 100%;
+    background-color: #f0f1f5;
 }
 
 .header-left{
@@ -69,17 +71,20 @@ body{
     font-size: 1.5rem;
 }
 
+/* ------------------carousel----------------------- */
+
 .cont{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #f0f1f5;
+    width: 100%;
+    height: 85vh;
 }
 
 .slider{
     height: 85vh;
-    background-color: var(--extra-colorone);
-    width: 800px;
-    height: 500px;
+    background-color: #f0f1f5;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -96,19 +101,24 @@ body{
 
 .slide{
     width: 20%;
+    transition: 2s;
 }
 
 .slide img{
-    width: 800px;
-    height: 500px;
+    width:100%;
+    height: 85vh;
 }
 
 .navigation-manual{
-   
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
 }
 
 .manual-btn{
-    border: 2px solid #CAF0F8;
+    border: 2px solid #161717;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -120,7 +130,7 @@ body{
 }
 
 .manual-btn:hover{
-    background: #90E0EF;
+    background: #191919;
 }
 
 #radio1:checked ~ .first{
@@ -138,3 +148,166 @@ body{
 #radio4:checked ~ .first{
     margin-left: -60%;
 }
+
+/* navigation auto */
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div{
+    border: 2px solid #161717;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #191919;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #191919;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #191919;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #191919;
+}
+
+/* ----------------------menu-section------------------------ */
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 100vh;
+    background-image: url(images/menu-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
+
+.heading-1{
+    font-size: 3rem;
+    font-family: 'DM Serif Display', sans-serif;
+    margin-top: 4rem;
+}
+
+.subheading{
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
+
+.menu-link{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #424242;
+    text-decoration: none;   
+}
+
+/* ---------------------------------table status---------------------------- */
+
+.tables{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.table-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-left .heading-1{
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.content{
+    font-size: 1.5rem;
+}
+
+.table-content{
+    list-style: none;
+}
+
+.table-right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.table-right img{
+    width: 450px;
+    height: 600px;
+    border-radius: 7.5%;
+}
+
+/* -------------------------orders--------------------------- */
+
+.orders{
+    height: 100vh;
+}
+
+
+/* ------------------about the establishment----------------------- */
+
+.about{
+    height: 100vh;
+}
+
+/* ------------------------------animations----------------------- */
+
+@keyframes animate{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+  
