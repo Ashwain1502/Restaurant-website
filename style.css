@@ -23,11 +23,7 @@ body{
     color: var(--text-color);
 }
 
-/* ----------------------hero-section------------------------ */
-
-.container{
-    height: 100vh;
-}
+/* ----------------------header-section------------------------ */
 
 .header{
     display: flex;
@@ -71,7 +67,7 @@ body{
     font-size: 1.5rem;
 }
 
-/* ------------------carousel----------------------- */
+/* ------------------carousel and hero section----------------------- */
 
 .cont{
     display: flex;
@@ -289,6 +285,53 @@ a:hover{
 
 .orders{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.orders .heading-1{
+    display: flex;
+    justify-content: center;
+}
+
+.order-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2rem 6rem 10rem 10rem;
+    gap: 2.5rem;
+}
+
+.list{
+    height: 35vh;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.order-list .list1{
+    background-image: url(images/list1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order-list .list2{
+    background-image: url(images/list2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order-list .list3{
+    background-image: url(images/list3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order-list .list4{
+    background-image: url(images/list4.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -296,7 +339,57 @@ a:hover{
 
 .about{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.about .heading-1{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutdiv{
+    display: flex;
+    height: 85vh;
+    margin-top: 2rem;
+}
+
+.about-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}       
+
+.para{
+    font-size: 1.5rem;
+    width: 75%;
+    margin-top: 3rem;
+}
+
+.membership{
+    margin-top: 2rem;
+}
+
+.membership a{
+    font-size: 2rem;
+}
+
+.about-right{
+    height: 85vh;
+}
+
+.address{
+    font-size: 1.25rem;
+    margin: 2rem 0 2rem 0 ;
+}
+
+.maps{
+    border-radius: 5%;
+}
+
 
 /* ------------------------------animations----------------------- */
 
