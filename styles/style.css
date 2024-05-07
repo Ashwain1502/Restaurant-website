@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta',sans-serif;
+}
+
+/* variables */
+:root{
+    --background-color: #CAF0F8;
+    --text-color: #040303f7;
+    --text-color1: #03055e;
+    --heading-color: #90E0EF;
+    --extra-colorone: #0077B6;
+    --extra-colortwo: #00B4D8;
+}
+
+body{
+    background: linear-gradient(90deg, #f4e446, #edd500);
+    color: var(--text-color);
+}
+
+/* ----------------------header-section------------------------ */
+
+.header{
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    background-color: #f0f1f5;
+}
+
+.header-left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left img{
+    border-radius: 50%;
+    height: 4rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.header-left p{
+    font-size: 3rem;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+.header-right{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right ul{
+    display: flex;
+    list-style: none;
+}
+
+.header-right ul li{
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+/* ------------------carousel and hero section----------------------- */
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f1f5;
+    width: 100%;
+    height: 85vh;
+}
+
+.slider{
+    height: 85vh;
+    background-color: #f0f1f5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+ .slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width:100%;
+    height: 85vh;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #161717;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #191919;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+/* navigation auto */
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.navigation-auto div{
+    border: 2px solid #161717;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #191919;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #191919;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #191919;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #191919;
+}
+
+/* ----------------------menu-section------------------------ */
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 100vh;
+    background-image: url(../images/menu-bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    position: absolute;
+    right: 0;
+}
+
+.heading-1{
+    font-size: 3rem;
+    font-family: 'DM Serif Display', sans-serif;
+    margin-top: 4rem;
+}
+
+.subheading{
+    margin-top: 2rem;
+    font-size: 1.25rem;
+}
+
+.menu-link{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #424242;
+    text-decoration: none;   
+}
+
+/* ---------------------------------table status---------------------------- */
+
+.tables{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.table-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-left .heading-1{
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.content{
+    font-size: 1.5rem;
+}
+
+.table-content{
+    list-style: none;
+}
+
+.table-right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.table-right img{
+    width: 450px;
+    height: 600px;
+    border-radius: 7.5%;
+}
+
+/* -------------------------orders--------------------------- */
+
+.orders{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.orders .heading-1{
+    display: flex;
+    justify-content: center;
+}
+
+.order-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2rem 6rem 10rem 10rem;
+    gap: 2.5rem;
+}
+
+.list{
+    height: 35vh;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.order-list .list1{
+    background-image: url(../images/list1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order-list .list2{
+    background-image: url(../images/list2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order-list .list3{
+    background-image: url(../images/list3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.order-list .list4{
+    background-image: url(../images/list4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ------------------about the establishment----------------------- */
+
+.about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .heading-1{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutdiv{
+    display: flex;
+    height: 85vh;
+    margin-top: 2rem;
+}
+
+.about-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}       
+
+.para{
+    font-size: 1.5rem;
+    width: 75%;
+    margin-top: 3rem;
+}
+
+.membership{
+    margin-top: 2rem;
+}
+
+.membership a{
+    font-size: 2rem;
+}
+
+.about-right{
+    height: 85vh;
+}
+
+.address{
+    font-size: 1.25rem;
+    margin: 2rem 0 2rem 0 ;
+}
+
+.maps{
+    border-radius: 5%;
+}
+
+
+/* ------------------------------animations----------------------- */
+
+@keyframes animate{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+  
