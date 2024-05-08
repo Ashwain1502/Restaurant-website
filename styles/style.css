@@ -189,7 +189,7 @@ body{
     flex-direction: column;
     gap: 3rem;
     height: 100vh;
-    background-image: url(../images/menu-bg2.jpg);
+    background-image: url(../images/index/menu-bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -311,25 +311,25 @@ a:hover{
 }
 
 .order-list .list1{
-    background-image: url(../images/list1.jpg);
+    background-image: url(../images/index/list1.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .order-list .list2{
-    background-image: url(../images/list2.jpg);
+    background-image: url(../images/index/list2.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .order-list .list3{
-    background-image: url(../images/list3.jpg);
+    background-image: url(../images/index/list3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .order-list .list4{
-    background-image: url(../images/list4.jpg);
+    background-image: url(../images/index/list4.jpg);
     background-size: cover;
     background-position: center;
 }

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta',sans-serif;
+}
+
+/* variables */
+:root{
+    --background-color: #CAF0F8;
+    --text-color: #040303f7;
+    --text-color1: #03055e;
+    --heading-color: #90E0EF;
+    --extra-colorone: #0077B6;
+    --extra-colortwo: #00B4D8;
+}
+
+body{
+    background: linear-gradient(90deg, #f4e446, #edd500);
+    color: var(--text-color);
+}
+
+/*-------------------------- header section ------------------------ */
+
+.heading{
+    font-size: 3rem;
+    font-family: 'DM Serif Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+/*-------------------------- starters ------------------------*/
+
+.nameleft{
+    height: 100vh;
+}
+
+.heading-1{
+    display: inline;
+    padding-left: 3rem;
+    font-size: 3rem;
+    font-family: 'DM Serif Display', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.nameleft-cont{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.nameleft-left{
+    width: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameleft-left ul li{
+    margin-top: 7.5px;
+}
+
+.nameleft-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.nameleft-right img{
+    height: 600px;
+    width: 450px;
+    border-radius: 10%;
+}
+
+/*-------------------------- main-course ------------------------*/
+
+.nameright{
+    height: 100vh;
+}
+
+.heading-1{
+    display: inline;
+    padding-left: 3rem;
+    font-size: 3rem;
+    font-family: 'DM Serif Display', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.nameright-cont{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.nameright-right{
+    width: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nameright-right ul li{
+    margin-top: 7.5px;
+}
+
+.nameright-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.nameright-left img{
+    height: 600px;
+    width: 450px;
+    border-radius: 10%;
+}
