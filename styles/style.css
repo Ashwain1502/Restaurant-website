@@ -255,16 +255,29 @@ a:hover{
 .table-left .heading-1{
     font-size: 3rem;
     padding-top: 5rem;
-    padding-bottom: 3rem;
+}
+
+.para1{
+    font-size: 1.25rem;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
 }
 
 .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
+    margin-top: 1.5rem;
 }
 
-.table-content{
-    list-style: none;
+.content a{
+    margin-right: 1.5rem;
 }
+
 
 .table-right{
     width: 50%;

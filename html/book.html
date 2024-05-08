@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/logo.avif">
+    <link rel="stylesheet" href="../styles/book.css">
+    <title>Booking</title>
+</head>
+<body>
+    <div class="header">
+        Table Booking
+    </div>
+
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <div class="cont">
+                    <div class="row">
+                        <label for="name" >Name: </label>
+                    </div>
+                    <div class="col">
+                        <input type="text" id="name" placeholder="John Doe" required autocomplete="additional-name">
+                    </div>
+                </div>
+
+                <div class="cont">
+                    <div class="row">
+                        <label for="phone-no">Phone No.:</label>
+                    </div>
+                    <div class="col">
+                        <input type="number" id="phoneno" placeholder="1234567890" required autocomplete="tel">
+                    </div>
+                </div>
+
+                <div class="cont">
+                    <div class="row">
+                        <label for="date">Date: </label>
+                    </div>
+                    <div class="col">
+                        <input type="date" id="date" placeholder="DD-MM-YYYY" required >
+                    </div>
+                </div>
+
+                <div class="cont">
+                    <div class="row">
+                        <label for="numberofseats">Number of Seats:</label>
+                    </div>
+                    <div class="col">
+                        <input type="number" id="numofseats" placeholder="1, 2, 3, ..." required>
+                    </div>
+                </div>
+
+                <textarea name="message" id="message" placeholder="Any Message Regarding Reservations"></textarea>
+                <div class="btn">
+                    <input type="submit" id="submit" name="Submit">
+                </div>
+                
+            </form>
+        </div>
+        <div class="table-img">
+            <img src="../images/book/table2.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
