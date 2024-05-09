@@ -1,128 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Membership</title>
-    <link rel="stylesheet" href="style2.css">
-</head>
-<body>
-    <header>
-        <center>
-            <h1>
-                Membership Form
-            </h1>
-        </center>
-        <form action=https://httpbin.org/get" method="get">
-            <fieldset>
-                <legend>
-                    Personal Information
-                </legend>
-                <p>
-                    <label for="First Name">First Name : </label>
-                    <input type="text" name="firstname" id="firstname" autocomplete="on">
-                </p>
-                <p>
-                    <label for="lastname">Last Name : </label>
-                    <input type="text" name="lastname" id="lastname" autocomplete="on">
-                </p>
-                <p>
-                    <label for="date">Date of Birth : </label>
-                    <input type="date" name="dateofbirth" id="dateofbirth" autocomplete="on">
-                </p>
-                <p>
-                    <label for="phonenumber">Phone Number : </label>
-                    <input type="number" name="phonenumber" id="phonenumber" autocomplete="on">
-                </p>
-                <p>
-                    <label for="email">Email : </label>
-                    <input type="email" name="email" id="email" autocomplete="on">
-                </p>
-            </fieldset>
-             
-            <fieldset>
-                <legend>
-                    Favourites
-                </legend>
-                <p>
-                    <label for="favouritecuisne">Favourite Cuisne : </label>
-                    <input type="text" name="favouritecuisne" id="favouritecuisne" autocomplete="on">
-                </p>
-                <p>
-                    <label for="favstater">Favourite Starter : </label>
-                    <input type="text" name="favstater" id="favstater" autocomplete="on">
-                </p>
-                <p>
-                    <label for="favmain">Favourite Main Course : </label>
-                    <input type="text" name="favmain" id="favmain" autocomplete="on">
-                </p>
-                <p>
-                    <label for="favsweetdish"> Favourite Sweets : </label>
-                    <input type="text" name="favsweetdish" id="">
-                </p>
-                <p>
-                    <label for="favfastfood">Favourite Snacks : </label>
-                    <input type="text" name="favfastfood" id="favfastfood" autocomplete="on">
-                </p>
-            </fieldset>
+    <link rel="icon" type="image/x-icon" href="../images/logo.avif" />
+    <link rel="stylesheet" href="../styles/form.css" />
+  </head>
+  <body>
+    <!-- heading  -->
+    <div class="heading">Membership Form</div>
 
-            <fieldset>
-                <legend>
-                    Other details
-                </legend>
-                <p>
-                    <label for="go">Do you go to restaurants often :</label>
-                    <input type="checkbox" name="yes" id="yes">
-                    <label for="yes">yes</label>
-                    <input type="checkbox" name="no" id="no">
-                    <label for="no">no</label>
-                </p>
-            </fieldset>
-            
-            <fieldset>
-                <legend>
-                    Fourite Time
-                </legend>
-                <label for="Fourite time">Fourite time to go to restaurant</label>
-                <select name="Fourite time" id="Fourite time">
-                <optgroup>
-                    <option value="Morning">Morning</option>
-                    <option value="Afternoon">Afternoon</option>
-                    <option value="Evening">Evening</option>
-                    <option value="Night Time">Night Time</option>
-                    <option value="Late Night">Late Night</option>
-                </select>
-                </optgroup>
-            </fieldset>
+    <form action="" method="get">
+      <div class="personal">
+        <div class="pleft">
+          <div class="heading">Personal Information</div>
 
-            <fieldset>
-                <legend>
-                    Fourite cuisines
-                </legend>
-                <input type="checkbox" id="dish1" name="dish1" value="Indian">
-                <label for="dish1"> I like Indian</label><br>
-                <input type="checkbox" id="dish2" name="dish2" value="Chinese">
-                <label for="dish2"> I like Chinese</label><br>
-                <input type="checkbox" id="dish3" name="dish3" value="Japenese">
-                <label for="dish3"> I like Japenese</label><br>
-            </fieldset>
+          <div class="m">
+            <div class="row">
+              <label for="First Name">First Name : </label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                autocomplete="on"
+              />
+            </div>
+          </div>
 
-            <fieldset>
-                <legend>your suggestion</legend>
-                <label for="message">Your Message</label>
-                <br>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="write your msg here . "></textarea>
-            </fieldset>
+          <div class="m">
+            <div class="row">
+              <label for="lastname">Last Name : </label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                autocomplete="on"
+              />
+            </div>
+          </div>
 
+          <div class="m">
+            <div class="row">
+              <label for="date">Date of Birth : </label>
+            </div>
+            <div class="col">
+              <input
+                type="date"
+                name="dateofbirth"
+                id="dateofbirth"
+                autocomplete="on"
+              />
+            </div>
+          </div>
 
-            <fieldset>
-                <legend>Sign Up</legend>
-                <button type="submit">Submit</button>
-            </fieldset>
-            
-        </form>
-         
-    </header>
-</body>
+          <div class="m">
+            <div class="row">
+              <label for="phonenumber">Phone Number : </label>
+            </div>
+            <div class="col">
+              <input
+                type="number"
+                name="phonenumber"
+                id="phonenumber"
+                autocomplete="on"
+              />
+            </div>
+          </div>
+
+          <div class="m">
+            <div class="row">
+              <label for="email">Email : </label>
+            </div>
+            <div class="col">
+              <input type="email" name="email" id="email" autocomplete="on" />
+            </div>
+          </div>
+        </div>
+        <div class="pright">
+          <img src="../images/form/personal.jpg" alt="" />
+        </div>
+      </div>
+
+      <!-- favorites  -->
+
+      <div class="personal">
+        <div class="pright">
+          <img src="../images/form/meal.jpg" alt="meals" />
+        </div>
+        <div class="pleft">
+          <div class="heading">Favourites</div>
+
+          <div class="m">
+            <div class="row">
+              <label for="favouritecuisne">Favourite Cuisne : </label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                name="favouritecuisne"
+                id="favouritecuisne"
+                autocomplete="on"
+              />
+            </div>
+          </div>
+
+          <div class="m">
+            <div class="row">
+              <label for="favstater">Favourite Starter : </label>
+            </div>
+            <div class="col">
+              <input type="text" name="favstater" id="favstater" />
+            </div>
+          </div>
+
+          <div class="m">
+            <div class="row">
+              <label for="favmain">Favourite Main Course : </label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                name="favmain"
+                id="favmain"
+                autocomplete="on"
+              />
+            </div>
+          </div>
+
+          <div class="m">
+            <div class="row">
+              <label for="favsweetdish"> Favourite Sweets : </label>
+            </div>
+            <div class="col">
+              <input type="text" name="favsweetdish" />
+            </div>
+          </div>
+
+          <div class="m">
+            <div class="row">
+              <label for="favfastfood">Favourite Snacks : </label>
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                name="favfastfood"
+                id="favfastfood"
+                autocomplete="on"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- other details  -->
+      <div class="btn">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </body>
 </html>

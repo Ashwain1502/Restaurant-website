@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta',sans-serif;
+}
+
+/* variables */
+:root{
+    --background-color: #CAF0F8;
+    --text-color: #040303f7;
+    --text-color1: #03055e;
+    --heading-color: #90E0EF;
+    --extra-colorone: #0077B6;
+    --extra-colortwo: #00B4D8;
+}
+
+body{
+    background: linear-gradient(90deg, #f4e446, #edd500);
+    color: var(--text-color);
+}
+
+/* heading  */
+
+.heading{
+    font-size: 3rem;
+    font-family: 'DM Serif Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+/* personal  */
+
+input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    background-color: #e8e8e8;
+    width: 250px;
+}
+
+
+#submit{
+    display: flex;
+    margin-top: 1.5rem;
+    background-color: #040303f7;
+    color: #fff;
+    width: 10rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.personal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.pleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pleft .heading{
+    font-size: 2.25rem;
+}
+
+.pright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.pright img{
+    height: 550px;
+    width: 400px;
+    border-radius: 10%;
+}
+
+.m{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.row{
+    width: 30%;
+}
+
+.col{
+    width: 50%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-bottom: 2rem;
+}
