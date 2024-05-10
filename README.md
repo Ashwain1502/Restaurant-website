@@ -9,6 +9,11 @@ Install the zip file or clone the repository and run the index.html file on any 
 2. It contains a page to showcase the menu of the restaurant.
 3. It has a page for booking seats for upcomimg events.
 4. It has a form to become premium members of the restautant.
+
+## Working on 
+1. Food ordering functionality.
+2. Database to contain all the data and retrive information.
+3. Backend to fetch the data.
    
 ## Working link
 [Click Here](https://themaharaja.netlify.app/)
