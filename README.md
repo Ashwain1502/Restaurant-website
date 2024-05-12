@@ -17,3 +17,6 @@ Install the zip file or clone the repository and run the index.html file on any 
    
 ## Working link
 [Click Here](https://themaharaja.netlify.app/)
+
+## Contributors
+Ashwani Kumar (ashwink1502@gmail.com)
