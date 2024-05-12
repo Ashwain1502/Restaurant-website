@@ -7,8 +7,8 @@ Install the zip file or clone the repository and run the index.html file on any 
 ## Functions
 1. It contains the general introduction of the restaurant with the hero section.
 2. It contains a page to showcase the menu of the restaurant.
-3. It has a page for booking seats for upcomimg events.
-4. It has a form to become premium members of the restautant.
+3. It has a page for booking seats for upcoming events.
+4. It has a form to become premium members of the restaurant.
 
 ## Working on 
 1. Food ordering functionality.
