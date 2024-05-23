@@ -1,11 +1,11 @@
 # Restaurant-website
 
-A Frontend web design developed using HTML, CSS, and Javascript for a restaurant website.
+A front-end web design developed using HTML, CSS, and Javascript for a restaurant website.
 
 # Steps to Download
 1. Install the zip file or clone the repository
 2. Run the index.html file on any browser.
-3. It should be running on your localhost now.
+3. It should be running on your local host now.
 
 ## Functions
 1. It contains the general introduction of the restaurant with the hero section.
@@ -15,7 +15,7 @@ A Frontend web design developed using HTML, CSS, and Javascript for a restaurant
 
 ## Working on 
 1. Food ordering functionality.
-2. Database to contain all the data and retrive information.
+2. Database to contain all the data and retrieve information.
 3. Coming soon
    
 ## Working link
