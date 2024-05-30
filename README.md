@@ -16,7 +16,7 @@ A front-end web design developed using HTML, CSS, and Javascript for a restauran
 ## Working on 
 1. Food ordering functionality.
 2. Database to contain all the data and retrieve information.
-3. Coming soon
+3. Coming soon.
    
 ## Working link
 [Click Here](https://themaharaja.netlify.app/)
