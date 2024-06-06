@@ -1,9 +1,8 @@
 # Restaurant-website
-
 A front-end web design developed using HTML, CSS, and Javascript for a restaurant website.
 
 # Steps to Download
-1. Install the zip file or clone the repository
+1. Install the zip file or clone the repository.
 2. Run the index.html file on any browser.
 3. It should be running on your local host now.
 
