@@ -18,7 +18,7 @@ A front-end web design developed using HTML, CSS, and Javascript for a restauran
 3. Coming soon.
    
 ## Working link
-[Click Here](https://themaharaja.netlify.app/ "Takes to Hosted Website")
+[Click Here](https://themaharaja.netlify.app/ "Takes to Hosted Website").
 
 > ## Contributors
 > Ashwani Kumar (ashwink1502@gmail.com).
