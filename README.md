@@ -14,6 +14,7 @@ A front-end website developed using HTML, CSS, and Javascript for a restaurant w
 
 ## Working on 
 1. Food ordering functionality.
+2. User Login functionality.
    
 ## Working link
 [Click Here](https://themaharaja.netlify.app/ "Takes to Hosted Website").
