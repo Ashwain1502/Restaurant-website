@@ -6,7 +6,7 @@ A front-end website developed using HTML, CSS, and Javascript for a restaurant w
 2. Run the index.html file on any browser.
 3. It should be running on your local host now.
 
-## Functions
+## Functions Implemented:
 1. It contains the general introduction of the restaurant with the hero section.
 2. It contains a page to showcase the menu of the restaurant.
 3. It has a page for booking seats for upcoming events.
