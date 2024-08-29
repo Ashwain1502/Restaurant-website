@@ -17,7 +17,7 @@ A front-end website developed using HTML, CSS, and Javascript for a restaurant w
 2. User Login functionality.
    
 ## Working link
-[Click Here](https://themaharaja.netlify.app/ "Takes to Hosted Website").
+[Click Here](https://themaharaja.netlify.app/ "Takes to Hosted Website")
 
 > ### Contributors
-> Ashwani Kumar (ashwink1502@gmail.com).
+> Ashwani Kumar (ashwink1502@gmail.com)
